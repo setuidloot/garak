@@ -25,6 +25,7 @@ For a detailed oversight into how a generator operates, see :doc:`generators/bas
    generators/mistral
    generators/ollama
    generators/openai
+   generators/openai_code_interpreter
    generators/nim
    generators/nvcf
    generators/replicate

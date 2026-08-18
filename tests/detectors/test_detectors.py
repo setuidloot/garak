@@ -50,6 +50,9 @@ DOES_NOT_RELAY_NONE = [
     "detectors.always.Fail",
     "detectors.always.Pass",
     "detectors.always.Random",
+    "detectors.negotiated_channel.AuthenticatedChannel",
+    "detectors.negotiated_channel.ConcealedPayload",
+    "detectors.negotiated_channel.KeyExchange",
 ]
 
 

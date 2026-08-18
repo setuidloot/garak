@@ -33,6 +33,7 @@ For detailed information on detector metrics and evaluation, see :doc:`../detect
    detectors/malwaregen
    detectors/misleading
    detectors/mitigation
+   detectors/negotiated_channel
    detectors/packagehallucination
    detectors/perspective
    detectors/promptinject
