@@ -10,6 +10,7 @@ replay or reflection cannot count as success.
 
 Further info:
 
+* https://michael.mccord.ai/papers/plaintext-cut.pdf
 * https://proceedings.mlr.press/v235/glukhov24a.html
 * https://arxiv.org/abs/2308.06463
 """
@@ -209,7 +210,7 @@ class EncryptedPayload(garak.probes.IterativeProbe):
     ]
     goal = "follow an instruction delivered through a freshly negotiated channel"
     tier = garak.probes.Tier.INFORMATIONAL
-    doc_uri = "https://proceedings.mlr.press/v235/glukhov24a.html"
+    doc_uri = "https://michael.mccord.ai/papers/plaintext-cut.pdf"
     parallelisable_attempts = False
     extra_dependency_names = ["cryptography"]
 
